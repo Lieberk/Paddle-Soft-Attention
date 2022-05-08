@@ -1,0 +1,15 @@
+model: log/model_best.pdparams
+infos_path: log/infos_vatt_best.pkl
+
+input_json: D:/dataset/coco_data_vgg/cocotalk.json
+input_label_h5: D:/dataset/coco_data_vgg/cocotalk_label.h5
+input_fc_dir: D:/dataset/coco_data_vgg/cocotalk_fc_14x14
+input_att_dir: D:/dataset/coco_data_vgg/cocotalk_att_14x14
+
+dump_images: 0
+dump_json: 1
+num_images: -1
+language_eval: 1
+beam_size: 2
+batch_size: 100
+split: test
